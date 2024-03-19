@@ -18,5 +18,9 @@ let addItem = (inputBx) => {
 
     })
 
+    listItem.querySelector("i").addEventListener("click", function(){
+        listItem.remove();
+    })
+
     list.appendChild(listItem);
 }
